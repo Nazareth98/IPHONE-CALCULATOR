@@ -35,6 +35,7 @@
 
 p {
     position: absolute;
+    font-size: 50px;
     bottom: 0;
     right: 0;
 }
@@ -47,6 +48,16 @@ p {
     border: none;
     margin: 5px;
     font-size: 28px;
+}
+
+.button:hover {
+    filter: brightness(120%);
+    transition: 200ms;
+}
+
+.button:active {
+    filter: brightness(80%);
+    transition: 200ms;
 }
 
 #zero {
@@ -66,5 +77,13 @@ p {
 .orange {
     background-color: #FF9F0A;
     color: #ffffff;
+}
+
+.dev {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 80px;
 }
 
